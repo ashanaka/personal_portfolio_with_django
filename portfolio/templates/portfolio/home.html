@@ -2,19 +2,37 @@
 
 {% block content %}
 
-<h1>This is my home page</h1>
+<div class="container text-center">
+    <h1>Ashan Shanaka</h1>
 
-<a href="{% url 'blog:all_blogs' %}">Blog</a>
 
-{% load static %}
+    {% load static %}
 
-<img src="{% static 'portfolio/IMG-20180301-WA0034.jpg' %}" alt="myImage" width="320" height="250">
+    <img src="{% static 'portfolio/00000PORTRAIT_00000_BURST20190817150451254.jpg' %}" alt="myImage" width="450" height="450">
 
-{% for project in projects %}
-    <h2>{{ project.title }}</h2>
-    <h3>{{ project.description }}</h3>
-    <img src="{{ project.image.url }}" alt="image in the database" height="100" width="100">
-    <a href="{{ project.url }}">Link</a>
-{% endfor %}
+    <br><br><br>
+    <hr>
+
+    <div class="row">
+        {% for project in projects %}
+            <div class="col-md-4 col-sm-6">
+                {% if project.url %}
+                <a href="{{ project.url }}">
+                    <h3>{{ project.title }}</h3>
+                    <h5>{{ project.description }}</h5>
+                    <img src="{{ project.image.url }}" class="image-fluid img-thumbnail" alt="image in the database"><br>
+                </a>
+                {% else %}
+                    <h3>{{ project.title }}</h3>
+                    <h5>{{ project.description }}</h5>
+                    <img src="{{ project.image.url }}" class="image-fluid img-thumbnail" alt="image in the database"><br>
+                {% endif %}
+            </div>
+        {% endfor %}
+    </div>
+
+
+</div>
+
 
 {% endblock %}

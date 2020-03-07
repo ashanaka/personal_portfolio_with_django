@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7080597d-cc73-4fe8-948c-0cb88b6c8590" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/static/portfolio/IMG-20180301-WA0034.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal_portfolio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal_portfolio/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -55,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="35" column="78" lean-forward="true" selection-start-line="35" selection-start-column="78" selection-end-line="35" selection-end-column="78" />
+            <state relative-caret-position="199">
+              <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -68,16 +58,16 @@
         <entry file="file://$PROJECT_DIR$/blog/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="408">
+              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -98,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/portfolio/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -147,11 +137,11 @@
         <option value="$PROJECT_DIR$/blog/admin.py" />
         <option value="$PROJECT_DIR$/blog/models.py" />
         <option value="$PROJECT_DIR$/blog/views.py" />
-        <option value="$PROJECT_DIR$/portfolio/templates/portfolio/home.html" />
         <option value="$PROJECT_DIR$/blog/templates/blog/all_blogs.html" />
         <option value="$PROJECT_DIR$/blog/templates/blog/detail.html" />
         <option value="$PROJECT_DIR$/blog/urls.py" />
         <option value="$PROJECT_DIR$/portfolio/templates/portfolio/base.html" />
+        <option value="$PROJECT_DIR$/portfolio/templates/portfolio/home.html" />
       </list>
     </option>
   </component>
@@ -324,43 +314,26 @@
     <entry file="file://$PROJECT_DIR$/blog/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personal_portfolio/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-          <folding>
-            <element signature="e#642#674#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -389,10 +362,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/personal_portfolio/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding>
+            <element signature="e#642#674#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="35" column="78" lean-forward="true" selection-start-line="35" selection-start-column="78" selection-end-line="35" selection-end-column="78" />
+        <state relative-caret-position="199">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
         </state>
       </provider>
     </entry>
