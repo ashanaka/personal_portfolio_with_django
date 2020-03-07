@@ -18,13 +18,13 @@
             <div class="col-md-4 col-sm-6">
                 {% if project.url %}
                 <a href="{{ project.url }}">
-                    <h3>{{ project.title }}</h3>
-                    <h5>{{ project.description }}</h5>
+                    <h3>{{ project.title|truncatechars:15 }}</h3>
+                    <h5>{{ project.description|truncatechars:20 }}</h5>
                     <img src="{{ project.image.url }}" class="image-fluid img-thumbnail" alt="image in the database"><br>
                 </a>
                 {% else %}
-                    <h3>{{ project.title }}</h3>
-                    <h5>{{ project.description }}</h5>
+                    <h3>{{ project.title|truncatechars:15 }}</h3>
+                    <h5>{{ project.description|truncatechars:20 }}</h5>
                     <img src="{{ project.image.url }}" class="image-fluid img-thumbnail" alt="image in the database"><br>
                 {% endif %}
             </div>

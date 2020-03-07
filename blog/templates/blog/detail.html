@@ -1,9 +1,15 @@
 {% extends 'portfolio/base.html' %}
 
+{% load static %}
+
 {% block content %}
 
-<h3>{{ blog.title }}</h3>
-<h5>--{{ blog.date|date:'F jS Y' }}--</h5>
-<p>{{ blog.description|safe }}</p>
+<div class="container text-center">
+    <h1>{{ blog.title }}</h1>
+    <h5 class="text-muted">--{{ blog.date|date:'F jS Y' }}--</h5>
+</div>
+<div class="container">
+   <p>{{ blog.description|safe }}</p>
+</div>
 
 {% endblock %}
